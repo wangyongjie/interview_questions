@@ -1,0 +1,8 @@
+ 一、html文档的doctype是干嘛用的，你了解哪几种doctype?
+ 答：1.doctype是什么
+		随着html的发展，从html 1.0，html 4.0，xhtml 1.0到 html5，html添加了很多的标签，也把一些标签标记为过时。而通过doctype，web浏览器就知道应该使用哪个html版本来解析我们的html代码。
+	 2.有几种doctype
+		用的比较多的有这几种，HTML 5，HTML 4.01 Strict，HTML 4.01 Transitional和HTML 4.01 Frameset。
+		对于html5来说，我们在页面的第一行声明<!DOCTYPE html>就可以了。
+		对于html4.0来说，会分为严格模式，过渡模式，框架模式，主要通过引入不同的dtd文件来区分，dtd规定了标记语言的规则。
+		如html4.0严格模式的话，就在页面第一行声明<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">。
